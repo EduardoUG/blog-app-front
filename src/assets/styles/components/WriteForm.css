@@ -1,0 +1,38 @@
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 125px;
+  display: flex;
+  align-items: center;
+  font-family: Lato;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.writeInput:focus {
+  outline: none;
+}
+
+.writeText {
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-style: 16px;
+}

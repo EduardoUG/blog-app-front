@@ -1,0 +1,30 @@
+.post {
+  margin: 10px 25px 40px 25px;
+  width: 40%;
+  cursor: pointer;
+}
+
+.postImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.postInfo {
+  font-family: Lato;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postInfo:hover {
+  color:  #494949;
+}
+
+.postName {
+  font-size: 30px;
+}
+
+.postDescription {
+  font-size: 20px;
+  font-weight: 300;
+}
