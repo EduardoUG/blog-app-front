@@ -16,7 +16,7 @@ const Posts = () => {
     }
 
     fetchedPost()
-  }, [])
+  }, [setPosts])
   return (
     <div className='posts'>
       {posts.map(post => (
